@@ -1,0 +1,114 @@
+:root{
+    --primary:#0020a0;
+    --dark:#000000e7;
+    --ternary:#898989;
+    --pure:#ffffff;
+    --ligth:#F2F2F2;
+    --secondary:#070606:
+    --purple:  #6f42c1;
+    --pink:    #ff4281ce;
+    --red: #810092;
+    --darkred: #a10000;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(Images/2023-05-27.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+}
+.title1{
+    background-color: var(--pure);
+}
+.title h1{
+    padding: 0.5em;
+    text-align: center;
+    color: var(--primary);
+   
+}
+.head .nav {
+    background:var(--primary);
+    padding: 1em;
+}
+ .nav a{
+    display: inline-block;
+    color: var(--pure);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 8em; 
+}
+.area{
+    padding-top:25em;
+}
+.area1 
+{
+background-color: var(--pure);
+}
+.area1 h1{
+    text-align: center;
+    color: var(--primary);
+    padding-top: 1em;
+}
+.area1 p{
+    padding: 4em;
+    text-align: justify;  
+}
+.academics{ 
+    background-color: var(--ligth);
+}
+.area2{
+    text-align: center;
+}
+h1{
+    color: var(--primary);
+}
+.area3{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.area4{
+    background-color: var(--primary);
+    color: var(--pure);
+    margin: 2em;
+    width: 100em;
+}
+.area4 h1{
+    margin-top: 1em;
+    color: var(--pure);
+}
+.area4 p{
+    text-align: justify;
+    padding: 1em;
+}
+.area5{
+    background-color: var(--primary);
+    color: var(--pure);
+    margin: 2em;
+    width: 100em;
+}
+.area5 h1{
+    margin-top: 1em;
+    color: var(--pure);
+}
+.area5 p{
+    text-align: justify;
+    padding: 1em;
+}
+.area6 h1{
+    padding-top: 1em;
+
+}
+.area4 :hover{
+    color: var(--dark);
+}
+.area5 :hover{
+    color: var(--dark);
+}
