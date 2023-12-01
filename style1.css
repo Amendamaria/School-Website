@@ -1,0 +1,57 @@
+:root{
+    --primary:#0020a0;
+    --dark:#000000;
+    --teritary:#cfcfcf;
+    --pure:#ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: var(--primary);
+   
+}
+nav .top a{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--pure);
+    padding: 2rem;
+}
+.clubs1 h1{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: x-large;
+    margin: 2em;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--pure);
+    padding: 4em;
+    margin: 4em;
+
+}
+.Scout{
+    background-color: var(--teritary);
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.guide h1{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 2em;
+
+}
+.guide p{
+    margin: 4em;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

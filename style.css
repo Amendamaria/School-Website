@@ -31,7 +31,6 @@ body{
     padding: 0.5em;
     text-align: center;
     color: var(--primary);
-   
 }
 .head .nav {
     background:var(--primary);
@@ -111,4 +110,54 @@ h1{
 }
 .area5 :hover{
     color: var(--dark);
+}
+.contact{
+    background: var(--pure);
+}
+
+.contact h1{
+    text-align: center;
+    padding-top: 2em;
+
+}
+.contact p{
+    text-align: center;
+}
+.contact label{
+    display: flex;
+    direction: initial;
+    margin: 2em;
+
+
+}
+.contact input{
+    display: block;
+    padding: 0.5em;
+    margin: 2em;
+    padding-right: 10em;
+    padding-bottom: 1em;
+    border-radius: 0.5em;
+    box-sizing: content-box;
+}
+.contact .mea{
+    padding-right: 50em;
+    padding-bottom: 20em;
+}
+.contact .btn{
+    background-color: var(--primary);
+    color: white;
+    align-items: center;
+    margin-left: 2em;
+    border: var(--dark);
+    border-radius: 1em;
+    cursor: pointer;
+    opacity: 0.9;
+    margin-bottom: 2em;
+}
+
+.foot{
+
+    text-align: center;
+    background: var(--ligth);
+    padding: 3em;
 }
