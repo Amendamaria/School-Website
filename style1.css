@@ -23,8 +23,8 @@ nav .top a{
     text-align: center;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: x-large;
-    margin: 2em;
+    font-size: 50px;
+    padding-top: 1em;
 }
 .cards{
     display: flex;
@@ -47,11 +47,42 @@ nav .top a{
     text-align: center;
     text-decoration: none;
     text-transform: capitalize;
-    margin: 2em;
+    margin: 1em;
+    font-size: 50px;
 
 }
 .guide p{
     margin: 4em;
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.spc h1{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 1em;
+    font-size: 50px;
+}
+.spc p{
+    
+    margin: 4em;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#redcross{
+    background-color: var(--teritary);
+}
+.redcross h1{
+    margin: 1em;
+    padding-top: 1em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.redcross p{
+    margin: 4em;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5em;
 }
